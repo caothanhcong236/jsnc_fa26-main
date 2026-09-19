@@ -11,10 +11,10 @@ console.log("Địa chỉ:", address);
 console.log("Sinh viên:", isStudent);
 
 // Bai 2
-let age = 20;
-console.log(age);
-age = 21;
-console.log(age);
+// let age = 20;
+// console.log(age);
+// age = 21;
+// console.log(age);
 
 // Bai 3
 const a = 10;
