@@ -115,10 +115,10 @@
     },
   ];
 
-  console.log("=== Bài 27 - Bước 1: Danh sách sản phẩm ===");
+  console.log("Bài 27 - Bước 1: Danh sách sản phẩm");
   console.log(products);
 
-  console.log("=== Bước 2 + 3: Duyệt bằng for ===");
+  console.log("Bước 2 + 3: Duyệt bằng for");
   for (let i = 0; i < products.length; i++) {
     console.log(`${products[i].name} - ${products[i].price}`);
   }
@@ -127,7 +127,7 @@
   for (let i = 0; i < products.length; i++) {
     total += products[i].price;
   }
-  console.log("=== Bước 4: Tổng giá ===");
+  console.log("Bước 4: Tổng giá ");
   console.log("Tổng giá:", total);
 
   const productsEl = document.getElementById("products");
